@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headArea1{
+    width: 100%;
+    height: 58px;
+    background-color: #333333;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+#hbutton{
+    background-color:  rgba(0, 0, 0, 0.687);
+    color: white;
+    border: none;
+}
+.headArea2{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto', sans-serif ;
+    font-size: 15px;
+    align-items: center;
+}
+img{
+    width: 360px;
+    height: 63px;
+}
+.container{
+    width: 100%;
+    height: 599px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.menu{
+    width: 1140px;
+    height: 48px;
+    background-color: rgb(252, 194, 84);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position:sticky;
+    top:0px;
+    margin-top: 10px;
+    transition: width 0s linear 0s;
+
+}
+.menu:hover{
+    width: 100%;
+}
+.box{
+    display: inline;
+    position: fixed;
+    right:0px;
+}
+#box1{
+    width: 30px;
+    height: 30px;
+}
+#box1:hover{
+    transform: rotateY(90deg);
+}
+.container2{
+    width: 100%;
+    height: 400PX;
+    display: flex;
+}
+#box2{
+    width:33.3%;
+    height: 172px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: center;
+}
+.container3{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+#notice{
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+    border: 5px solid #eeee;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.035);
+}
+#video{
+    width: 580px;
+    height: 320px;
+}
+#desk{
+    width: 264px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+#sr{
+    background-size: cover;
+    width: 262px;
+    height: 296px;
+    border-radius: 5px solid rgb(108, 106, 106);
+}
